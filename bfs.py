@@ -1,22 +1,24 @@
 #!/usr/bin/python3
-""" breadth-first search (BFS) on a graph """
+""" breadth-first search (bfs) on a graph """
+
 from collections import deque
 
 graph = {
-    'A': ['B', 'C'],
-    'B': ['A', 'D'],
-    'C': ['A'],
-    'D': ['B']
+    'Alice': ['Bob', 'Charlie'],
+    'Bob': ['Alice', 'Diana'],
+    'Charlie': ['Alice'],
+    'Diana': ['Bob']
 }
 
 
-def bfs(key):
-    """ visit all connected nodes
-    level by level from start node """
-    queue = deque(key)
+def bfs(start_nodes):
+    """
+    bfs visit all connected nodes level by level
+    """
+    queue = deque(start_nodes)
     visited = []
 
-    while queue:
+    while len(queue) > 0:
         node = queue.popleft()
         if node not in visited:
             visited.append(node)
@@ -24,4 +26,5 @@ def bfs(key):
     return visited
 
 
-print(bfs(['A']))  # ['A', 'B', 'C', 'D']
+if __name__ == "__main__":
+    print(bfs(['Alice']))
