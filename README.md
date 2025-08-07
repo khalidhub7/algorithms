@@ -1,52 +1,25 @@
-# ⚙️ Algorithmes
+# ⚙️ algorithmes
 
-A growing collection of classic algorithms in clean, simple Python — great for learning, practicing, and interviews.
-
----
-
-## ✅ Completed Algorithms
-
-- `dfs.py` — **Depth-First Search**
-- `bfs.py` — **Breadth-First Search**
+a growing collection of classic algorithms in clean, simple python — great for learning, practicing, and interviews.
 
 ---
 
-## 📊 Graph Algorithms
+## 📊 graph algorithms
 
-### ✅ Done
+- `dfs.py` — **depth-first search**  
+  explore deep paths before backtracking. ✅ *done*
 
-- `dfs.py` — **Depth-First Search**  
-  Explore deep paths before backtracking.
+- `bfs.py` — **breadth-first search**  
+  visit nodes level by level — great for shortest paths in **unweighted** graphs. ✅ *done*
 
-- `bfs.py` — **Breadth-First Search**  
-  Visit nodes level by level — great for shortest paths in **unweighted** graphs.
+- `dijkstra.py` — **dijkstra’s algorithm**  
+  find shortest paths in **weighted** graphs. 🕒 *coming soon*
 
----
+- `union_find.py` — **union-find (disjoint set)**  
+  track and merge connected components efficiently. 🕒 *coming soon*
 
-### 🚧 Coming Soon
+- `kruskal.py` — **kruskal’s algorithm**  
+  build the **minimum spanning tree (mst)** using union-find. 🕒 *coming soon*
 
-- `dijkstra.py` — **Dijkstra’s Algorithm**  
-  Find shortest paths in **weighted** graphs.
-
-- `union_find.py` — **Union-Find (Disjoint Set)**  
-  Track and merge connected components efficiently.
-
-- `kruskal.py` — **Kruskal’s Algorithm**  
-  Build the **Minimum Spanning Tree (MST)** using Union-Find.
-
-- `topo_sort.py` — **Topological Sort**  
-  Order tasks in a **Directed Acyclic Graph (DAG)**.
-
----
-
-## 📁 Folder Structure
-
-```bash
-algorithmes/
-├── dfs.py
-├── bfs.py
-├── dijkstra.py        # coming soon
-├── union_find.py      # coming soon
-├── kruskal.py         # coming soon
-├── topo_sort.py       # coming soon
-└── README.md
+- `topo_sort.py` — **topological sort**  
+  order tasks in a **directed acyclic graph (dag)**. 🕒 *coming soon*
