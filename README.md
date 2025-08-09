@@ -1,25 +1,32 @@
-⚙️ algorithmes  
-a growing collection of classic algorithms in clean, simple python — great for learning, practicing, and interviews.
+# ⚙️ Algorithmes
 
-📊 graph algorithms  
-dfs.py — depth-first search  
-explore deep paths before backtracking. ✅ done
+A growing collection of classic algorithms in clean, simple Python — great for learning, practicing, and interviews.
 
-bfs.py — breadth-first search  
-visit nodes level by level — great for shortest paths in unweighted graphs. ✅ done
+---
 
-dijkstra.py — dijkstra’s algorithm  
-find shortest paths in weighted graphs. 🕒 coming soon
+## 📊 Graph Algorithms
 
-union_find.py — union-find (disjoint set)  
-track and merge connected components efficiently. 🕒 coming soon
+- **dfs.py** — Depth-First Search  
+  Explore deep paths before backtracking. ✅ Done
 
-kruskal.py — kruskal’s algorithm  
-build the minimum spanning tree (mst) using union-find. 🕒 coming soon
+- **bfs.py** — Breadth-First Search  
+  Visit nodes level by level — great for shortest paths in unweighted graphs. ✅ Done
 
-topo_sort.py — topological sort  
-order tasks in a directed acyclic graph (dag). 🕒 coming soon
+- **dijkstra.py** — Dijkstra’s Algorithm  
+  Find shortest paths in weighted graphs. 🕒 Coming soon
 
-⚡ greedy algorithms  
-greedy.py — coin change using greedy approach  
-choose the best option at each step to minimize coins. ✅ done
+- **union_find.py** — Union-Find (Disjoint Set)  
+  Track and merge connected components efficiently. 🕒 Coming soon
+
+- **kruskal.py** — Kruskal’s Algorithm  
+  Build the minimum spanning tree (MST) using union-find. 🕒 Coming soon
+
+- **topo_sort.py** — Topological Sort  
+  Order tasks in a Directed Acyclic Graph (DAG). 🕒 Coming soon
+
+---
+
+## ⚡ Greedy Algorithms
+
+- **greedy.py** — Coin change using greedy approach  
+  Choose the best option at each step to minimize coins. ✅ Done
